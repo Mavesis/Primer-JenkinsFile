@@ -13,14 +13,14 @@ pipeline {
         stage('Segunda fase'){
             steps{
                 echo' Ahora vamos a descargar un proyecto MAVEN'
-                git 'https://github.com/jenkinsci/pipeline-examples.git'
+                git 'https://github.com/jitpack/maven-simple.git'
 
             }
         }
         stage('Tercera fase') {
             steps{
                 echo'Ahora vamos a construir el proyecto MAVEN'
-                bat 'mvn clean install'
+                bat 'mvn clean install '
             }
         }
     }
