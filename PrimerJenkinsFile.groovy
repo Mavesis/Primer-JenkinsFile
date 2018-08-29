@@ -1,6 +1,11 @@
 //Jenkinsfile (Declarative Pipeline)
 pipelines{
-
-                echo 'Hola ! esto es un JenkinsFile de prueba.\n Poco a poco se iran añadiendo pasos con distintas funcionalidades '
-
+        agent any
+    stages {
+        stage('Example') {
+            steps {
+                 echo 'Hola ! esto es un JenkinsFile de prueba.\n Poco a poco se iran añadiendo pasos con distintas funcionalidades '
+            }
         }
+    }
+ }
