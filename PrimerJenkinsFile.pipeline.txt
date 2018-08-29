@@ -1,5 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
-pipelines{
+node{
     stages{
         stage('Mi primer JenkinsFile'){
             steeps{
