@@ -21,7 +21,7 @@ pipeline {
         stage('Tercera fase') {
             steps{
                 echo'Ahora vamos a construir el proyecto MAVEN'
-                sh 'mvn --verson'
+                bat 'mvn clean install'
             }
         }
     }
