@@ -8,7 +8,6 @@ pipeline {
         stage('Primera fase') {
             steps {
                 echo 'Este es mi primer JenkinsFile'
-                bat 'mkdir NuevaCarpeta'
             }
         }
         stage('Segunda fase'){
