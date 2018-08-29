@@ -1,4 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
+//Jenkinsfile (Declarative Pipeline)
 pipelines{
     stages{
         stage('Mi primer JenkinsFile'){
