@@ -1,6 +1,9 @@
 
 pipeline {
     agent any
+    tools{
+        maven 'maven3.5.0'
+    }
     stages { 
         stage('Primera fase') {
             steps {
