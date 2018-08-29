@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Segunda fase'){
             steps{
-                echo' Ahora vamos a descargar el proyecto pipeline-examples'
-                git 'https://github.com/jenkinsci/pipeline-examples.git'
+                echo' Ahora vamos a descargar un proyecto MAVEN'
+                git 'https://github.com/jitpack/maven-simple.git'
 
             }
         }
