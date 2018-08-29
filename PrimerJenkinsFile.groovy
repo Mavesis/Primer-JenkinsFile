@@ -14,6 +14,10 @@ pipeline {
 
             }
         }
+        stage('Tercera fase') {
+            steps{
+                sh 'mvn clean install'
+            }
     }
 }
 
