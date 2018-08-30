@@ -7,7 +7,7 @@ pipeline {
     stages { 
         stage('Primera fase') {
             steps {
-                echo 'Este es mi primer JenkinsFile'
+                echo 'Este ya no es mi primer JenkinsFile y ahora estoy en una rama nueva, juguemos con ramas'
             }
         }
         stage('Segunda fase'){
