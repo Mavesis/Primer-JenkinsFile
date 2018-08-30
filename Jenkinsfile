@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    echo '\n\n============ ESTAMOS EN LA RAMA 1 ============\n\n'
+    echo '============ ESTAMOS EN LA RAMA 1 ============'
     stage('BUILD & ANALYSIS Maven_simple') {
       steps {
         echo 'Primer Mensaje en una RAMA'
