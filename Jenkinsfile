@@ -17,7 +17,7 @@ pipeline {
        echo 'En este paso vamos a descargar el proyecto maven_simple de un repositorio git y a construirlo\n'
        echo'-------------------------------------------------------------------------------------------------'
        git 'https://github.com/jitpack/maven-simple.git'
-       bat 'C:/sonar-scanner/bin/sonar-scanner.bat -X'
+       bat 'C:/sonar-scanner/bin/sonar-scanner.bat -X -sonar.projectKey="mavenSimpleStage" -sonar.projectName="maven simple Stage" -sonar.source=.'
        
 
        
